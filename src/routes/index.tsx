@@ -5,12 +5,25 @@ import { ContactForm } from "@/components/site/ContactForm";
 import { HeroSlider } from "@/components/site/HeroSlider";
 
 export const Route = createFileRoute("/")({
-  head: () => ({
-    meta: [
-      { title: "Handyman SG — Trusted Handyman Services in Singapore" },
-      { name: "description", content: "Book trusted handyman services in Singapore: electrical, plumbing, painting, TV mounting, doors & carpentry. Same-day response." },
-    ],
-  }),
+head: () => ({
+  meta: [
+    {
+      title: "Handyman SG — Trusted Handyman Services in Singapore",
+    },
+    {
+      name: "description",
+      content:
+        "Book trusted handyman services in Singapore: electrical, plumbing, painting, TV mounting, doors & carpentry. Same-day response.",
+    },
+  ],
+
+  links: [
+    {
+      rel: "canonical",
+      href: "https://handymansg.com/",
+    },
+  ],
+}),
   component: HomePage,
 });
 
