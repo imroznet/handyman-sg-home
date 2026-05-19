@@ -1,8 +1,8 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { Phone, ShieldCheck, Clock, BadgeCheck, Star, ArrowRight } from "lucide-react";
-import heroImg from "@/assets/hero.jpg";
 import { services } from "@/components/site/services";
 import { ContactForm } from "@/components/site/ContactForm";
+import { HeroSlider } from "@/components/site/HeroSlider";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -61,8 +61,7 @@ function HomePage() {
             </div>
           </div>
           <div className="relative">
-            <div className="absolute -inset-4 rounded-3xl bg-brand/10 blur-2xl" />
-            <img src={heroImg} alt="Handyman tools" width={1536} height={1152} className="relative rounded-3xl shadow-[var(--shadow-soft)] object-cover" />
+            <HeroSlider />
           </div>
         </div>
       </section>
