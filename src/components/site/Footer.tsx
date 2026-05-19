@@ -29,8 +29,8 @@ export function Footer() {
           <div>
             <h4 className="text-sm font-semibold mb-3">Get in Touch</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
-              <li className="flex items-center gap-2"><Phone className="h-4 w-4 text-brand" /> +65 8888 8888</li>
-              <li className="flex items-center gap-2"><Mail className="h-4 w-4 text-brand" /> hello@handymansg.com</li>
+              <li className="flex items-center gap-2"><Phone className="h-4 w-4 text-brand" /> +65 8312 2991</li>
+              <li className="flex items-center gap-2"><Mail className="h-4 w-4 text-brand" /> mim.gim.mg@gmail.com</li>
               <li className="flex items-center gap-2"><MapPin className="h-4 w-4 text-brand" /> Singapore</li>
             </ul>
           </div>
