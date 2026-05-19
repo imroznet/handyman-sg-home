@@ -5,18 +5,12 @@ import { Check, Phone } from "lucide-react";
 export const Route = createFileRoute("/services")({
   head: () => ({
     meta: [
-      { title: "Handyman Services in Singapore — Electrical, Plumbing & More" },
-      { name: "description", content: "Electrical, plumbing, painting, TV mounting, door repair and carpentry services in Singapore. Licensed, insured, same-day available." },
-      { property: "og:title", content: "Handyman Services in Singapore — Electrical, Plumbing & More" },
-      { property: "og:description", content: "Electrical, plumbing, painting, TV mounting, door repair and carpentry services in Singapore." },
-      { property: "og:url", content: "https://handymansg.com/services" },
-      { property: "og:type", content: "website" },
+      { title: "Services — Handyman SG" },
+      { name: "description", content: "Electrical, plumbing, painting, TV mounting, door repair and carpentry services in Singapore." },
     ],
-    links: [{ rel: "canonical", href: "https://handymansg.com/services" }],
   }),
   component: ServicesPage,
 });
-
 
 function ServicesPage() {
   return (

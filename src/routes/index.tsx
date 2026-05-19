@@ -9,16 +9,10 @@ export const Route = createFileRoute("/")({
     meta: [
       { title: "Handyman SG — Trusted Handyman Services in Singapore" },
       { name: "description", content: "Book trusted handyman services in Singapore: electrical, plumbing, painting, TV mounting, doors & carpentry. Same-day response." },
-      { property: "og:title", content: "Handyman SG — Trusted Handyman Services in Singapore" },
-      { property: "og:description", content: "Book trusted handyman services in Singapore: electrical, plumbing, painting, TV mounting, doors & carpentry. Same-day response." },
-      { property: "og:url", content: "https://handymansg.com/" },
-      { property: "og:type", content: "website" },
     ],
-    links: [{ rel: "canonical", href: "https://handymansg.com/" }],
   }),
   component: HomePage,
 });
-
 
 const reasons = [
   { icon: ShieldCheck, title: "Licensed & Insured", text: "All our technicians are background-checked and fully insured." },

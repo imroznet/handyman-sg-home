@@ -5,18 +5,12 @@ import { ContactForm } from "@/components/site/ContactForm";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact Handyman SG — Free Quote in 30 Minutes" },
-      { name: "description", content: "Call, WhatsApp +65 8312 2991, or request a free quote. We reply within 30 minutes, Mon–Sun 8am–10pm across Singapore." },
-      { property: "og:title", content: "Contact Handyman SG — Free Quote in 30 Minutes" },
-      { property: "og:description", content: "Call, WhatsApp, or request a free quote. We reply within 30 minutes." },
-      { property: "og:url", content: "https://handymansg.com/contact" },
-      { property: "og:type", content: "website" },
+      { title: "Contact — Handyman SG" },
+      { name: "description", content: "Get in touch with Handyman SG for a free quote. Call, WhatsApp, or fill out our form." },
     ],
-    links: [{ rel: "canonical", href: "https://handymansg.com/contact" }],
   }),
   component: ContactPage,
 });
-
 
 function ContactPage() {
   return (

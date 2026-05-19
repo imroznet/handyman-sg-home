@@ -4,18 +4,12 @@ import { ShieldCheck, Users, Award, Heart } from "lucide-react";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About Handyman SG — Singapore's Trusted Handyman Team" },
-      { name: "description", content: "Handyman SG is Singapore's trusted handyman team — licensed, insured, and built on craftsmanship. 2,000+ jobs across HDB, condo, and landed homes." },
-      { property: "og:title", content: "About Handyman SG — Singapore's Trusted Handyman Team" },
-      { property: "og:description", content: "Licensed, insured, and built on craftsmanship. 2,000+ jobs across Singapore." },
-      { property: "og:url", content: "https://handymansg.com/about" },
-      { property: "og:type", content: "website" },
+      { title: "About — Handyman SG" },
+      { name: "description", content: "Handyman SG is Singapore's trusted handyman team — fast, friendly, and built on craftsmanship." },
     ],
-    links: [{ rel: "canonical", href: "https://handymansg.com/about" }],
   }),
   component: AboutPage,
 });
-
 
 const values = [
   { icon: ShieldCheck, title: "Trust First", text: "Background-checked, insured technicians you can welcome into your home." },
