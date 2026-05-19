@@ -50,7 +50,7 @@ function ServicesPage() {
             <h3 className="text-2xl font-bold sm:text-3xl">Need help with something else?</h3>
             <p className="mx-auto mt-2 max-w-xl opacity-90">If you can break it, we can probably fix it. Give us a shout.</p>
             <div className="mt-6 flex flex-wrap justify-center gap-3">
-              <a href="tel:+6588888888" className="inline-flex items-center gap-2 rounded-full bg-background px-6 py-3 text-sm font-semibold text-brand hover:scale-[1.03] transition-transform">
+              <a href="tel:+6583122991" className="inline-flex items-center gap-2 rounded-full bg-background px-6 py-3 text-sm font-semibold text-brand hover:scale-[1.03] transition-transform">
                 <Phone className="h-4 w-4" /> Call Now
               </a>
               <Link to="/contact" className="inline-flex items-center gap-2 rounded-full border border-white/30 px-6 py-3 text-sm font-semibold hover:bg-white/10 transition-colors">

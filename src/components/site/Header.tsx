@@ -37,7 +37,7 @@ export function Header() {
         </nav>
         <div className="hidden md:flex">
           <a
-            href="tel:+6588888888"
+            href="tel:+6583122991"
             className="inline-flex items-center gap-2 rounded-full bg-brand px-5 py-2.5 text-sm font-semibold text-brand-foreground shadow-[var(--shadow-soft)] transition-transform hover:scale-[1.03]"
           >
             <Phone className="h-4 w-4" /> Call Now
@@ -65,7 +65,7 @@ export function Header() {
               </Link>
             ))}
             <a
-              href="tel:+6588888888"
+              href="tel:+6583122991"
               className="mt-2 inline-flex items-center justify-center gap-2 rounded-full bg-brand px-4 py-2.5 text-sm font-semibold text-brand-foreground"
             >
               <Phone className="h-4 w-4" /> Call Now

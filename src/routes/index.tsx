@@ -44,10 +44,10 @@ function HomePage() {
               Fast, friendly handyman services across Singapore. From a leaky tap to a full TV install — book a trusted pro in minutes.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
-              <a href="tel:+6588888888" className="inline-flex items-center gap-2 rounded-full bg-brand px-6 py-3 text-sm font-semibold text-brand-foreground shadow-[var(--shadow-soft)] transition-transform hover:scale-[1.03]">
+              <a href="tel:+6583122991" className="inline-flex items-center gap-2 rounded-full bg-brand px-6 py-3 text-sm font-semibold text-brand-foreground shadow-[var(--shadow-soft)] transition-transform hover:scale-[1.03]">
                 <Phone className="h-4 w-4" /> Call Now
               </a>
-              <a href="https://wa.me/6588888888" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 rounded-full bg-whatsapp px-6 py-3 text-sm font-semibold text-white shadow-[var(--shadow-soft)] transition-transform hover:scale-[1.03]">
+              <a href="https://wa.me/6583122991" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 rounded-full bg-whatsapp px-6 py-3 text-sm font-semibold text-white shadow-[var(--shadow-soft)] transition-transform hover:scale-[1.03]">
                 WhatsApp Us
               </a>
               <Link to="/services" className="inline-flex items-center gap-2 rounded-full border border-border bg-background px-6 py-3 text-sm font-semibold text-foreground transition-colors hover:border-brand hover:text-brand">
@@ -147,7 +147,7 @@ function HomePage() {
               Tell us about your job. We'll get back to you within 30 minutes with a fair, upfront price.
             </p>
             <div className="mt-8 space-y-4 text-sm">
-              <div className="flex items-center gap-3"><Phone className="h-5 w-5 text-brand" /> +65 8888 8888</div>
+              <div className="flex items-center gap-3"><Phone className="h-5 w-5 text-brand" /> +65 8312 2991</div>
               <div className="flex items-center gap-3"><Clock className="h-5 w-5 text-brand" /> Mon–Sun, 8am – 10pm</div>
               <div className="flex items-center gap-3"><ShieldCheck className="h-5 w-5 text-brand" /> Licensed & insured technicians</div>
             </div>
