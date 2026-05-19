@@ -5,9 +5,21 @@ export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
       { title: "About — Handyman SG" },
-      { name: "description", content: "Handyman SG is Singapore's trusted handyman team — fast, friendly, and built on craftsmanship." },
+      {
+        name: "description",
+        content:
+          "Handyman SG is Singapore's trusted handyman team — fast, friendly, and built on craftsmanship.",
+      },
+    ],
+
+    links: [
+      {
+        rel: "canonical",
+        href: "https://handymansg.com/about",
+      },
     ],
   }),
+
   component: AboutPage,
 });
 
