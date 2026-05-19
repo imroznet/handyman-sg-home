@@ -61,8 +61,7 @@ function HomePage() {
             </div>
           </div>
           <div className="relative">
-            <div className="absolute -inset-4 rounded-3xl bg-brand/10 blur-2xl" />
-            <img src={heroImg} alt="Handyman tools" width={1536} height={1152} className="relative rounded-3xl shadow-[var(--shadow-soft)] object-cover" />
+            <HeroSlider />
           </div>
         </div>
       </section>
