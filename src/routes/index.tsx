@@ -1,8 +1,8 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { Phone, ShieldCheck, Clock, BadgeCheck, Star, ArrowRight } from "lucide-react";
-import heroImg from "@/assets/hero.jpg";
 import { services } from "@/components/site/services";
 import { ContactForm } from "@/components/site/ContactForm";
+import { HeroSlider } from "@/components/site/HeroSlider";
 
 export const Route = createFileRoute("/")({
   head: () => ({
