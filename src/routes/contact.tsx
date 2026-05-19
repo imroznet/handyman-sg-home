@@ -6,9 +6,21 @@ export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
       { title: "Contact — Handyman SG" },
-      { name: "description", content: "Get in touch with Handyman SG for a free quote. Call, WhatsApp, or fill out our form." },
+      {
+        name: "description",
+        content:
+          "Get in touch with Handyman SG for a free quote. Call, WhatsApp, or fill out our form.",
+      },
+    ],
+
+    links: [
+      {
+        rel: "canonical",
+        href: "https://handymansg.com/contact",
+      },
     ],
   }),
+
   component: ContactPage,
 });
 
